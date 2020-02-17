@@ -1,0 +1,20 @@
+.blck {
+  background-color: black;
+}
+.yllw {
+  background-color: yellow;
+}
+.blue {
+  background-color: blue;
+}
+.drk-blue {
+  background-color: #6F98C3;
+}
+.pink {
+  background-color: pink;
+}
+
+div:nth-of-type(1) {
+  width: 2vw;
+  height: 24vw;
+}
