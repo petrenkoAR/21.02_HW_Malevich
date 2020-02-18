@@ -1,3 +1,6 @@
+* {
+  position: absolute;
+}
 .blck {
   background-color: black;
 }
@@ -11,10 +14,61 @@
   background-color: #6F98C3;
 }
 .pink {
-  background-color: pink;
+  background-color: #F91864;
 }
 
 div:nth-of-type(1) {
-  width: 2vw;
-  height: 24vw;
+  width: 31px;
+  height: 343px;
+  transform: rotate(-15deg);
+  left: 106.53px;
+  top: 147.02px;
+}
+div:nth-of-type(2) {
+  width: 8px;
+  height: 157px;
+  transform: rotate(-15deg);
+  left: 98.03px;
+  top: 158.57px;
+}
+div:nth-of-type(3) {
+  width: 23px;
+  height: 162px;
+  transform: rotate(-15deg);
+}
+div:nth-of-type(4) {
+  width: 26px;
+  height: 162px;
+  transform: rotate(34deg);
+}
+div:nth-of-type(5) {
+  width: 47px;
+  height: 107px;
+  transform: rotate(15deg);
+}
+div:nth-of-type(6) {
+  width: 34px;
+  height: 239px;
+  transform: rotate(15deg);
+}
+div:nth-of-type(7) {
+  width: 38px;
+  height: 277px;
+  transform: rotate(15deg);
+}
+div:nth-of-type(8) {
+  width: 10px;
+  height: 30px;
+  transform: rotate(-15deg);
+}
+div:nth-of-type(9) {
+  width: 26px;
+  height: 29px;
+  transform: rotate(15deg);
+}
+div:nth-of-type(10) {
+  width: 56px;
+  height: 176px;
+  transform: rotate(-15deg);
+
 }
