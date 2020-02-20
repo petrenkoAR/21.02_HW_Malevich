@@ -34,3 +34,16 @@ let targsAnimation03 = anime({
 })
 let targsBtn03 = document.getElementById('thrd')
 targsBtn03.onmouseover = targsAnimation03.play
+
+
+let targsAnimation03 = anime({
+  targets: '.third',
+  rotate: ['-15deg', '720deg'],
+  easing: 'steps(10)',
+  translateY: -400,
+  height: '100vw',
+  direction: 'alternate',
+  autoplay: false,
+})
+let targsBtn03 = document.getElementById('thrd')
+targsBtn03.onmouseover = targsAnimation03.play

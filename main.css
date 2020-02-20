@@ -2,6 +2,7 @@
 
 * {
   position: absolute;
+  cursor: pointer;
 }
 .blck {
   background-color: black;
