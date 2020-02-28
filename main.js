@@ -1,9 +1,26 @@
+let controller = new ScrollMagic.Controller()
+
+let screen1 = document.querySelector('.bg-grid__scrn1')
+let screen2 = document.querySelector('.bg-grid__scrn2')
+let screen3 = document.querySelector('.bg-grid__scrn3')
+let screen4 = document.querySelector('.bg-grid__scrn4')
+let screen5 = document.querySelector('.bg-grid__scrn5')
+let screen6 = document.querySelector('.bg-grid__scrn6')
+
 let targsAnimation01 = anime({
-  targets: '.first',
+  targets: '.blck',
+  rotate: '+=10turn',
+  easing: 'linear',
   autoplay: false,
 })
-let targsBtn01 = document.getElementById('frst')
-targsBtn01.onclick = targsAnimation01.play
+new ScrollMagic.Scene({
+  triggerElement: screen2,
+  triggerHook: 'onEnter',
+})
+.addTo(controller)
+.on('enter', function(){ //.on('enter', () => boxAnimation.play())
+  targsAnimation01.play()
+})
 
 let targsAnimation02 = anime({
   targets: '.second',
@@ -53,7 +70,7 @@ targsBtn07.onmouseover = targsAnimation07.play
 
 
 let targsAnimation08 = anime({
-  targets: '.eight'
+  targets: '.eight',
   autoplay: false,
 })
 let targsBtn08 = document.getElementById('ght')
