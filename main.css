@@ -37,61 +37,61 @@
   width: 51.38vw;
   height: 6.81vw;
   left: 32.81vw;
-  top: 14.88vw + 100vh;
+  top: 71.13vw;
 }
 .container div:nth-of-type(2) {
   width: 32.38vw;
   height: 2.25vw;
   left: 32.81vw;
-  top: 122.44vw;
+  top: 78.69vw;
 }
 .container div:nth-of-type(3) {
   width: 70.06vw;
   height: 5.06vw;
   left: 27.38vw;
-  top: 327.13vw;
+  top: 191.19vw;
 }
 .container div:nth-of-type(4) {
   width: 75.25vw;
   height: 5.38vw;
   transform: rotate(30deg);
   left: 8.5vw;
-  top: 531.63vw;
+  top: 312.88vw;
 }
 .container div:nth-of-type(5) {
   width: 9.56vw;
   height: 18.38vw;
   left: 13.63vw;
-  top: 116.13vw;
+  top: 72.38vw;
 }
 .container div:nth-of-type(6) {
   width: 6.94vw;
   height: 42.63vw;
   left: 8.75vw;
-  top: 403.69vw;
+  top: 228.69vw;
 }
 .container div:nth-of-type(7) {
   width: 4.88vw;
   height: 53.81vw;
   left: 5.63vw;
-  top: 201.13vw;
+  top: 113.63vw;
 }
 .container div:nth-of-type(8) {
   width: 4.44vw;
   height: 1.44vw;
   left: 3.19vw;
-  top: 328.25vw;
+  top: 197vw;
 }
 .container div:nth-of-type(9) {
   width: 7.5vw;
   height: 7.5vw;
   transform: rotate(30deg);
   left: 34.75vw;
-  top: 422.94vw;
+  top: 247.94vw;
 }
 .container div:nth-of-type(10) {
   width: 41.63vw;
   height: 8.31vw;
   left: 55.81vw;
-  top: 434.06vw;
+  top: 259.06vw;
 }
